@@ -1,0 +1,21 @@
+.link{
+    font-size: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.link::after{
+    content:"\A";
+    margin: 2px 0 0 20px;
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background: linear-gradient(135.97deg, #113FF5 -22.54%, #812BFE 125%);
+    display:inline-block;
+}
