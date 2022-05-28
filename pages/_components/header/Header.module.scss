@@ -1,0 +1,25 @@
+.Header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    margin: 30px 0 0 0;
+    gap: 8%;
+    width: 100%;
+    ul{
+        display: flex;
+        gap: 20px;     
+        align-items: center;
+    }
+    img{
+        max-height: 50px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .Header{
+        ul{
+            display: none;
+        }
+    }
+}

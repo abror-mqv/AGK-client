@@ -3,7 +3,9 @@ import nasway from "./Link.module.scss"
 
 function Link(props) {
   return (
-      <a href={props.url} className={nasway.link}>{props.title}</a>
+      <a href={props.url} className={nasway.link}>
+        {props.title}
+      </a>
   );
 }
 
