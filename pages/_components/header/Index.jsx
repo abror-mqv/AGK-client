@@ -1,23 +1,15 @@
 import React from 'react';
 import Link from './components/Link/Index';
-import Logo from '../../assets/Logo.png'
-
-import nasway from "./Header.module.scss"
+import Logo from '../../assets/Logo.svg'
+import logo from './components/logo.svg'
 
 function Header(props) {
     return (
-        <div className={nasway.Header}>
-            <ul>
-                <Link url="#" title="Услуги"/>
-                <Link url="#" title="Схема работы"/>
-                <Link url="#" title="Отзывы"/>
-            </ul>            
-            <img src={Logo.src} alt="Golubev & Kulikov Logo" />
-            <ul>
-                <Link url="#" title="Портфолио"/>
-                <Link url="#" title="Новости"/>
-                <Link url="#" title="Контакты"/>              
-            </ul>            
+        <div>
+            <Link url="#" title="Услуги"/>
+            <Link url="#" title="Схема работы"/>
+            <Link url="#" title="Отзывы"/>
+            <img src={logo.src} alt="Agk Logo" />
         </div>
     );
 }
