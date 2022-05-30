@@ -1,10 +1,10 @@
 .Header{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     position: fixed;
     margin: 30px 0 0 0;
-    gap: 8%;
+    gap: 8px;
     width: 100%;
     ul{
         display: flex;
@@ -16,7 +16,17 @@
     }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 1060px) {
+    .Header{
+        font-size: 13px;
+        img{
+            max-height: 42px;
+        }
+    }
+
+}
+
+@media screen and (max-width: 960px){
     .Header{
         ul{
             display: none;
