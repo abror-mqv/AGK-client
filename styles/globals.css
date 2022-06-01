@@ -8,6 +8,7 @@ body {
   background: #23262B;
   background-image: url(../pages/assets/Rectangle.png);
   background-repeat: repeat;
+  scroll-behavior: smooth;
 }
 
 a {

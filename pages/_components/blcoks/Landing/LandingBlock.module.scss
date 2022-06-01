@@ -5,4 +5,12 @@
     gap:220px;
     margin: 0 auto;
     height: 100vh;
+    flex-wrap: wrap;
+
+    .ImageBlock{
+        width: 426px;
+        display: flex;
+        justify-content: center;
+        display: flex;
+    }
 }

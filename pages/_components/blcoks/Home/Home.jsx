@@ -14,7 +14,7 @@ const HomeBlcok = () => {
         <TextThree content="Мы не говорим о себе, а делаем то, что нравится Вашим клиентам, а Вам приносит желаемый результат!" width="426"/>
       </div>
       <div className={nasway.ImageBlock}>
-        <img src={HomeImage.src} alt="Продвижение бизнеса в цифровой форме" />
+        <img src={HomeImage.src} className={nasway.Image} alt="Продвижение бизнеса в цифровой форме" />
       </div>
     </div>
   );

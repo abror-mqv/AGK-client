@@ -1,6 +1,6 @@
 import React from 'react';
-import Image from './LandingImage.png'
 import nasway from './LandingBlock.module.scss'
+import Image from './langingImage.png'
 
 import TextOne from '../_components/text1/TextOne';
 import TextThree from '../_components/text3/TextThree';

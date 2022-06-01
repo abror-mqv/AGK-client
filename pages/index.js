@@ -6,8 +6,9 @@ import Header from './_components/header/Index'
 import Navigation from './_components/navigation/index'
 import HomeBlock from './_components/blcoks/Home/Home'
 import LandingBlock from './_components/blcoks/Landing/LandingBlock'
-import Stats from './_components/blcoks/Stats/Quality'
+import Stats from './_components/blcoks/Stats/Stats'
 import Quality from './_components/blcoks/Quality/Quality'
+import Money from './_components/blcoks/Money/Money'
 
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <LandingBlock/>
       <Stats/>
       <Quality/>
+      <Money/>
     </div>
   )
 }
