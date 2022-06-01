@@ -7,7 +7,7 @@ body {
   font-family: 'Roboto', sans-serif;
   background: #23262B;
   background-image: url(../pages/assets/Rectangle.png);
-  background-size: cover;
+  background-repeat: repeat;
 }
 
 a {

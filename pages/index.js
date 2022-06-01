@@ -6,6 +6,9 @@ import Header from './_components/header/Index'
 import Navigation from './_components/navigation/index'
 import HomeBlock from './_components/blcoks/Home/Home'
 import LandingBlock from './_components/blcoks/Landing/LandingBlock'
+import Stats from './_components/blcoks/Stats/Quality'
+import Quality from './_components/blcoks/Quality/Quality'
+
 
 export default function Home() {
   return (
@@ -14,6 +17,8 @@ export default function Home() {
       <Navigation/>
       <HomeBlock/>
       <LandingBlock/>
+      <Stats/>
+      <Quality/>
     </div>
   )
 }
