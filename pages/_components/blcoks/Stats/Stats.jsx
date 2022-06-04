@@ -8,8 +8,10 @@ import Image from './StatsImage.png'
 const Stats = () => {
     return (
         <div className={nasway.Stats}>
-            <div className={nasway.TextBlcok}>
-                <TextOne content="ПОКАЗАТЕЛИ"/>
+            <div className={nasway.TextBlock}>
+                <div>
+                    <TextOne content="ПОКАЗАТЕЛИ"/>
+                </div>
                 <p>
                 Какой тип сайта Вы не выберете для своего бизнеса, можете быть уверены, что он будет отвечать всем современным требованиям.
                 <br/>
