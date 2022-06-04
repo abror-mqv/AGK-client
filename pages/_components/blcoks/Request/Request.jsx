@@ -10,7 +10,9 @@ const Request = () => {
     return (
         <div className={nasway.Request}>
             <div className={nasway.TextBlock}>
-                <TextOne content="Заявка"/>
+                <div>
+                    <TextOne content="Заявка"/>
+                </div>
                 <p>
                     Мы ценим Ваше время и точно уверены в успехе! Остался только один вопрос. Готовы ли Вы реализовать его прямо сейчас?
                 </p>
