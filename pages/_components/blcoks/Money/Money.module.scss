@@ -13,4 +13,17 @@
         justify-content: center;
         display: flex;
     }
+    .TextBlock{
+        div{
+            width: 275px;
+            height: 30px;
+            background: linear-gradient(90deg, #153EF5 0%, #7C2BFD 100%);
+            box-shadow: -2px 7px 15px rgba(143, 51, 213, 0.75);
+            h2{
+                margin-top: -42px;
+                margin-left: 9px;
+                position: absolute;
+            }
+        }
+    }
 }
