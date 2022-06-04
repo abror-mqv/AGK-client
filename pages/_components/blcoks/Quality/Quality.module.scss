@@ -1,16 +1,30 @@
-.Quality{
+.Quality {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:270px;
+    gap: 270px;
     margin: 0 auto;
     height: 100vh;
     flex-wrap: wrap;
 
-    .ImageBlock{
+    .ImageBlock {
         width: 426px;
         display: flex;
         justify-content: center;
         display: flex;
+    }
+
+    .TextBlock {
+        div{
+            width: 354px;
+            height: 29px;
+            background: linear-gradient(270.2deg, #F35635 0%, #772BFC 100%);
+            box-shadow: -2px 7px 15px rgba(143, 51, 213, 0.75);
+            h2{
+                margin-top: -41px;
+                margin-left: 7px;
+                position: absolute;
+            }
+        }
     }
 }
