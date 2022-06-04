@@ -10,7 +10,8 @@ const HomeBlcok = () => {
     <div className={nasway.Home}>
       <div className={nasway.TextBlock}>
           <img src={HomeLogo.src} alt="AGK GOLUBEV & KULIKOV" />
-          <h2>Media Агенство</h2>
+          <h2>Media агенство</h2>
+          <div></div>
         <TextThree content="Мы не говорим о себе, а делаем то, что нравится Вашим клиентам, а Вам приносит желаемый результат!" width="426"/>
       </div>
       <div className={nasway.ImageBlock}>

@@ -9,6 +9,8 @@ import LandingBlock from './_components/blcoks/Landing/LandingBlock'
 import Stats from './_components/blcoks/Stats/Stats'
 import Quality from './_components/blcoks/Quality/Quality'
 import Money from './_components/blcoks/Money/Money'
+import Support from './_components/blcoks/Support/Support'
+import Request from './_components/blcoks/Request/Request'
 
 
 export default function Home() {
@@ -21,6 +23,8 @@ export default function Home() {
       <Stats/>
       <Quality/>
       <Money/>
+      <Support/>
+      <Request/>
     </div>
   )
 }
