@@ -5,7 +5,8 @@ import HomeLogo from "./HomeLogoWhite.svg";
 
 import TextThree from "../_components/text3/TextThree";
 
-const HomeBlcok = () => {
+
+const HomeBlock = () => {
   return (
     <div className={nasway.Home}>
       <div className={nasway.TextBlock}>
@@ -21,4 +22,4 @@ const HomeBlcok = () => {
   );
 };
 
-export default HomeBlcok;
+export default HomeBlock;

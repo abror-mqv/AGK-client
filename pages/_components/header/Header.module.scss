@@ -14,13 +14,26 @@
     img{
         max-height: 50px;
     }
+    .DevBurger{
+        display: none;
+    }
+
 }
 
 @media screen and (max-width: 1060px) {
+
     .Header{
         font-size: 13px;
+        margin: 10vh 0 0 0;
+        justify-content: space-between;
+        padding: 0% 12%;
+
         img{
-            max-height: 42px;
+            transform: scale(180%);
+        }
+        .DevBurger{
+            display: block;
+            transform: scale(300%);
         }
     }
 
