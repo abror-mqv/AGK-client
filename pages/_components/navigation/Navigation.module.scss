@@ -4,3 +4,21 @@
     left: 50%;
     transform: translateX(-50%);
 }
+
+.ButtonStyle{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: linear-gradient(143deg, #2E3337 -6.19%, #1D2025 106.57%);
+    border: 3px solid #1A1F23;
+    -webkit-box-shadow: 0px 0px 12px 0px linear-gradient(143deg, #2E3337 -6.19%, #1D2025 106.57%);
+    -moz-box-shadow: 0px 0px 12px 0px linear-gradient(143deg, #2E3337 -6.19%, #1D2025 106.57%);
+    box-shadow: 0px 0px 12px 0px linear-gradient(143deg, #2E3337 -6.19%, #1D2025 106.57%);
+    transition: 0.3s;
+}
+
+.ButtonStyle:hover{
+    transform: scale(110%);
+    background: linear-gradient(100deg, #2E3337 -6.19%, #1D2025 106.57%);
+    margin-top: -2px;
+}
